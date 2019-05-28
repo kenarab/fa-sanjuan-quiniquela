@@ -38,7 +38,7 @@ for (x = [0:1:layers]){
 //    echo(concat("rotating", rotating_height))
     
     module_wood_bar(x = x*thickness, 
-    side = mod(x,2),
-    rotating_height = rotating_height,
-    angle = angle);
+                    side = mod(x,2),
+                    rotating_height = rotating_height,
+                    angle = angle);
 }
