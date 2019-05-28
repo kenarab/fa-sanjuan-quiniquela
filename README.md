@@ -6,4 +6,4 @@ Proyecto abierto en openscad para importar en sketchup
 
 ![Objetivo](https://github.com/kenarab/fa-sanjuan-quiniquela/blob/master/sanjuan_fuegoaustral_objetivo.jpeg)
 
-![Modelo actual](https://github.com/kenarab/fa-sanjuan-quiniquela/blob/master/png/superficie_reglada_barco.png)
+![Modelo actual](https://github.com/kenarab/fa-sanjuan-quiniquela/blob/master/png/fa-sanjuan-barco.png)
