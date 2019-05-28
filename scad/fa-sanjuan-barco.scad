@@ -34,8 +34,8 @@ function angle_function_cuadratic(x, factor) = 1/5*(pow(layers/2,2)-(pow(x-layer
 function angle_function (x, factor)= angle_function_cuadratic(x, factor);
 for (x = [0:1:layers]){
     angle = angle_function(x, factor = 1/5);
-    rotating_height = angle_function(x, factor = 1/500);
-//    echo(concat("angle",angle))
+    rotating_height = angle_function(x, factor = 1/55);
+//    echo(concat("rotating", rotating_height))
     
     module_wood_bar(x = x*thickness, 
     side = mod(x,2),

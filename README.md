@@ -15,4 +15,4 @@ Proyecto abierto en openscad para importar en sketchup
 
 * Modelo paramétrico en openscad:
 
-![Modelo actual](https://github.com/kenarab/fa-sanjuan-quiniquela/blob/master/png/fa-sanjuan-barco-v0.png)
+![Modelo actual](https://github.com/kenarab/fa-sanjuan-quiniquela/blob/master/png/fa-sanjuan-barco-v0.1.png)
