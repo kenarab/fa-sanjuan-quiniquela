@@ -11,7 +11,7 @@ https://creativecommons.org/licenses/by-sa/4.0/
 function mod(X, N)= 
     (X/N - floor(X/N))*N;    
 thickness = 3*2.54;    
-layers = 300;
+layers = 150;
 module module_wood_bar(x, rotating_height= 0.5,
     angle = 0,
     side = 0,
@@ -29,10 +29,10 @@ translate([x, 0, 0])
 
 function angle_function_linear(x, factor) = (layers/2-abs(x-layers/2)*.8)*factor;
 
-function angle_function_cuadratic(x, factor) = 1/20*(pow(layers/2,2)-(pow(x-layers/2,2)))*pow(factor,2);
+function angle_function_cuadratic(x, factor) = 1/5*(pow(layers/2,2)-(pow(x-layers/2,2)))*pow(factor,2);
 
 function angle_function (x, factor)= angle_function_cuadratic(x, factor);
-for (x = [0:1:300]){
+for (x = [0:1:layers]){
     angle = angle_function(x, factor = 1/5);
     rotating_height = angle_function(x, factor = 1/500);
 //    echo(concat("angle",angle))
