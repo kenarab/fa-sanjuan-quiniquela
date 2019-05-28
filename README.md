@@ -11,6 +11,7 @@ Proyecto abierto en openscad para importar en sketchup
 # Barco
 
 * Modelo original:
+
 ![Objetivo](https://github.com/kenarab/fa-sanjuan-quiniquela/blob/master/referencias/sanjuan_fuegoaustral_objetivo.jpeg)
 
 * Modelo paramétrico en openscad:
